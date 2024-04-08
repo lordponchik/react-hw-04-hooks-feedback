@@ -1,0 +1,20 @@
+.statistics {
+  width: 250px;
+
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.item:nth-child(3) {
+  border-bottom: 1px solid #000;
+}
+.result {
+  font-weight: 700;
+}
